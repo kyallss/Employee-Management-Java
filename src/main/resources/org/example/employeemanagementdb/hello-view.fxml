@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/javafx" fx:controller="org.example.employeemanagementdb.HelloController" prefWidth="600" prefHeight="500">
+    <children>
+
+        <TableView fx:id="employeeTable" layoutX="25.0" layoutY="25.0" prefHeight="200.0" prefWidth="550.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" prefWidth="150.0" />
+                <TableColumn fx:id="typeColumn" text="Type" prefWidth="100.0" />
+                <TableColumn fx:id="salaryColumn" text="Salary" prefWidth="100.0" />
+                <TableColumn fx:id="hireDateColumn" text="Hire Date" prefWidth="150.0" />
+            </columns>
+        </TableView>
+
+        <Label layoutX="25.0" layoutY="240.0" text="Name:" />
+        <TextField fx:id="nameField" layoutX="100.0" layoutY="235.0" prefWidth="200.0" />
+
+        <Label layoutX="25.0" layoutY="280.0" text="Type:" />
+        <ComboBox fx:id="typeComboBox" layoutX="100.0" layoutY="275.0" prefWidth="200.0" />
+
+        <Label layoutX="25.0" layoutY="320.0" text="Hourly Rate:" />
+        <TextField fx:id="hourlyRateField" layoutX="100.0" layoutY="315.0" prefWidth="200.0" />
+
+        <Label layoutX="25.0" layoutY="360.0" text="Hours Worked:" />
+        <TextField fx:id="hoursWorkedField" layoutX="100.0" layoutY="355.0" prefWidth="200.0" />
+
+        <Label layoutX="25.0" layoutY="400.0" text="Hire Date:" />
+        <DatePicker fx:id="hireDatePicker" layoutX="100.0" layoutY="395.0" prefWidth="200.0" />
+
+        <Button text="Add Employee" layoutX="350.0" layoutY="275.0" prefWidth="150.0" onAction="#onAddEmployee" />
+        <Button text="Remove Selected" layoutX="350.0" layoutY="315.0" prefWidth="150.0" onAction="#onRemoveSelected" />
+        <Button text="Save Changes" layoutX="350.0" layoutY="355.0" prefWidth="150.0" onAction="#onSaveChanges" />
+    </children>
+</AnchorPane>
