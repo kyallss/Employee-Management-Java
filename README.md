@@ -59,3 +59,8 @@
 - getAllEmployees()
 - updateEmployee(Employee employee)
 - deleteEmployee(int id)
+
+![Screenshot 2024-12-01 225031](https://github.com/user-attachments/assets/c4c00ca3-1bd3-4169-9111-a4b45083c479)
+![Screenshot 2024-12-01 225122](https://github.com/user-attachments/assets/61bae96e-2bad-471a-b58d-e23e442ac0d2)
+![Screenshot 2024-12-01 225131](https://github.com/user-attachments/assets/ee226469-5ad9-49ab-8010-8aa6a944f34c)
+
